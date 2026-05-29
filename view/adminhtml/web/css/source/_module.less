@@ -24,12 +24,13 @@
         &:before {
             content: '' !important;
             font-family: none !important;
-            background: url('@{baseDir}Pronko_Core/images/pronkoconsulting-icon.svg') no-repeat center;
-            background-size: 2.2rem 2.2rem;
             display: block;
             height: 2.2rem;
             margin-bottom: 0.3rem;
-            filter: brightness(0) invert(1);
+            background-color: currentColor;
+            background-image: none !important;
+            -webkit-mask: url('@{baseDir}Pronko_Core/images/pronkoconsulting-icon.svg') no-repeat center / 2.2rem 2.2rem;
+            mask: url('@{baseDir}Pronko_Core/images/pronkoconsulting-icon.svg') no-repeat center / 2.2rem 2.2rem;
         }
     }
 }

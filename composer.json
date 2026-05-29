@@ -1,7 +1,7 @@
 {
     "name": "pronko/magento2-core",
     "description": "Pronko Consulting core module for Magento 2 — shared admin tab and ACL for all Pronko modules",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "OSL-3.0",
     "authors": [
         {

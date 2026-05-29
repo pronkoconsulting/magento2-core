@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2 — 2026-05-29
+
+### Fixed
+
+- Admin menu icon now uses CSS `mask` instead of `filter` to correctly inherit the nav text color in both Magento Open Source and MageOS themes
+
 ## 1.0.1 — 2026-05-29
 
 ### Added
