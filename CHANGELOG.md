@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3 — 2026-05-29
+
+### Fixed
+
+- `Pronko_Core::pronko` admin menu entry is now hidden when no child modules are enabled, preventing an empty top-level menu item from appearing
+
 ## 1.0.2 — 2026-05-29
 
 ### Fixed
