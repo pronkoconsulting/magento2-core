@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Pronko_Core::pronko"
+             title="Pronko Consulting"
+             translate="title"
+             module="Pronko_Core"
+             sortOrder="200"
+             resource="Pronko_Core::pronko"/>
+    </menu>
+</config>

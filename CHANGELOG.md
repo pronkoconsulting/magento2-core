@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1 — 2026-05-29
+
+### Added
+
+- Pronko Consulting top-level admin menu entry (`Pronko_Core::pronko`)
+- PC logo icon in the admin navigation menu
+
 ## 1.0.0 — 2026-05-25
 
 ### Added

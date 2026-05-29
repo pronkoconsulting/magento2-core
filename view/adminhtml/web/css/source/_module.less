@@ -2,6 +2,8 @@
  * Copyright © Pronko Consulting (https://www.pronkoconsulting.com)
  * See LICENSE for license details.
  */
+
+// Config tab icon
 .config-nav-block.pronko-tab {
     strong {
         &:before {
@@ -12,6 +14,22 @@
             display: inline-block;
             margin-right: 8px;
             vertical-align: bottom;
+        }
+    }
+}
+
+// Admin menu icon
+#menu-pronko-core-pronko {
+    > a {
+        &:before {
+            content: '' !important;
+            font-family: none !important;
+            background: url('@{baseDir}Pronko_Core/images/pronkoconsulting-icon.svg') no-repeat center;
+            background-size: 2.2rem 2.2rem;
+            display: block;
+            height: 2.2rem;
+            margin-bottom: 0.3rem;
+            filter: brightness(0) invert(1);
         }
     }
 }
